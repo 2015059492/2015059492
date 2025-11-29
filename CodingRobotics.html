@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coding & Robotics for Teachers</title>
+  <style>
+    /* ---- GLOBAL STYLES ---- */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #ffffff;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* ---- HEADER ---- */
+    header {
+      background-color: #3A7CA5;
+      color: white;
+      padding: 1.5rem 0;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+      letter-spacing: 1px;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 500;
+      transition: opacity 0.3s;
+    }
+
+    nav a:hover {
+      opacity: 0.8;
+    }
+
+    /* ---- HERO SECTION ---- */
+    .hero {
+      background-image: linear-gradient(rgba(58,124,165,0.6), rgba(58,124,165,0.6)),
+        url('https://images.unsplash.com/photo-1581090700227-1e37b190418e?auto=format&fit=crop&w=1500&q=80');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 5rem 1rem;
+    }
+
+    .hero h2 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      max-width: 600px;
+      margin: 0 auto;
+      font-size: 1.1rem;
+    }
+
+    /* ---- MAIN CONTENT ---- */
+    main {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    section h2 {
+      color: #3A7CA5;
+      border-left: 4px solid #3A7CA5;
+      padding-left: 10px;
+    }
+
+    /* ---- CARD GRID ---- */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    .card {
+      background-color: #f8f9fa;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .card h3 {
+      color: #3A7CA5;
+      margin-top: 0;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 0.8rem;
+      color: white;
+      background-color: #3A7CA5;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: opacity 0.3s;
+    }
+
+    .card a:hover {
+      opacity: 0.8;
+    }
+
+    /* ---- FOOTER ---- */
+    footer {
+      background-color: #3A7CA5;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 0;
+      box-shadow: 0 -2px 6px rgba(0,0,0,0.1);
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    footer a:hover {
+      opacity: 0.8;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Coding & Robotics for Teachers</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Curriculum</a>
+      <a href="#training-modules">Training Modules</a>
+      <a href="#resources">Resources</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>Empowering Teachers to Build the Future</h2>
+    <p>
+      Discover tools, lessons, and interactive modules designed to help South African educators 
+      confidently teach Coding & Robotics in the classroom.
+    </p>
+  </div>
+
+  <main>
+    <section id="training-modules">
+      <h2>Explore Training Modules</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Introduction to Coding</h3>
+          <p>Learn the foundations of coding: algorithms, logic, and computational thinking, to build a strong base for your learners.</p>
+          <a href="module 1.html">Start Module</a>
+        </div>
+        <div class="card">
+          <h3>Robotics Fundamentals</h3>
+          <p>Explore robotics principles, sensors, and actuators, and how to integrate practical robotics into classroom activities.</p>
+          <a href="#">Start Module</a>
+        </div>
+        <div class="card">
+          <h3>Assessment Strategies</h3>
+          <p>Discover effective ways to assess coding and robotics learning in line with the DBE’s CAPS requirements.</p>
+          <a href="#">Start Module</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Resources for Teachers</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Lesson Plans</h3>
+          <p>Download ready-to-use Coding & Robotics lesson plans aligned with the CAPS curriculum for Grades 4–9.</p>
+          <a href="#">View Resources</a>
+        </div>
+        <div class="card">
+          <h3>Interactive Tools</h3>
+          <p>Access simulators, coding platforms, and robotics kits that support teaching in diverse classroom contexts.</p>
+          <a href="#">Explore Tools</a>
+        </div>
+        <div class="card">
+          <h3>Professional Development</h3>
+          <p>Join workshops, webinars, and teacher communities to enhance your coding and robotics pedagogy.</p>
+          <a href="#">Join Now</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Coding & Robotics for Teachers | Supported by the Department of Basic Education</p>
+    <p>
+      <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a>
+    </p>
+  </footer>
+</body>
+</html>
